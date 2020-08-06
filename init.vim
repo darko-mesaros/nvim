@@ -4,6 +4,8 @@
 
 " general
 source $HOME/.config/nvim/general/settings.vim
+" filetype configuration
+source $HOME/.config/nvim/general/filetypes.vim
 " keybindings
 source $HOME/.config/nvim/keys/mappings.vim
 " plugin installation
@@ -15,4 +17,4 @@ source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 " colorizer
 lua require'plug-colorizer'
-
+colorscheme medic_chalk

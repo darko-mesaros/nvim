@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Add some color
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'junegunn/rainbow_parentheses.vim'
+    Plug 'ParamagicDev/vim-medic_chalk'
 
     " lightline - statusbar
     Plug 'itchyny/lightline.vim'
@@ -33,6 +34,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+    " terraform
+    Plug 'hashivim/vim-terraform'
+
 
 call plug#end()
 
