@@ -19,6 +19,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'junegunn/rainbow_parentheses.vim'
     Plug 'ParamagicDev/vim-medic_chalk'
+    Plug 'humanoid-colors/vim-humanoid-colorscheme'
+    Plug 'atahabaki/archman-vim'
 
     " lightline - statusbar
     Plug 'itchyny/lightline.vim'
@@ -37,6 +39,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " terraform
     Plug 'hashivim/vim-terraform'
+
+    " vimwiki
+    Plug 'vimwiki/vimwiki'
+
+    " Markdown
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 
 
 call plug#end()

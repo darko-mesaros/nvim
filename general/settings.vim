@@ -19,3 +19,5 @@ set lcs+=space:.            " set the blank character to '.'
 set formatoptions-=cro      " Stop newline continution of comments
 set t_Co=256                " Support 256 colors
 set termguicolors           " sets term gui colors
+
+

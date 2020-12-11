@@ -7,8 +7,8 @@ inoremap <C-c> <Esc>
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
-" show/hide line numbers
-nnoremap <C-N><C-N> :set invnumber<CR>
+" show/hide relative line numbers
+nnoremap <C-N><C-N> :set nu! rnu!<CR>
 " show/hide blank characters
 noremap <F5> :set list!<CR>
 inoremap <F5> <C-o>:set list!<CR>
