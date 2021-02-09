@@ -8,9 +8,9 @@ let g:startify_lists = [
           \ ]
 
 let g:startify_bookmarks = [
-          \ { 'w': '~/.config/i3/config' },
+          \ { 'a': '~/.config/fish/conf.d/aliases.fish' },
           \ { 'i': '~/.config/nvim/init.vim' },
           \ { 'p': '~/.config/polybar/config' },
-          \ { 'f': '~/.config/fish/config.fish' },
+          \ { 'f': '~/.config/fish/conf.d/darko.fish' },
           \ { 'r': '~/.Xresources' },
           \ ]
