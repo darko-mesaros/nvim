@@ -8,9 +8,9 @@ let g:startify_lists = [
           \ ]
 
 let g:startify_bookmarks = [
-          \ { 'w': '~/.config/i3/config' },
           \ { 'i': '~/.config/nvim/init.vim' },
-          \ { 'p': '~/.config/polybar/config' },
-          \ { 'f': '~/.config/fish/config.fish' },
+          \ { 'o': '~/.config/openbox/rc.xml' },
+          \ { 'z': '~/.zshrc' },
           \ { 'r': '~/.Xresources' },
+          \ { 'c': '~/.config/conky/conky.conf' },
           \ ]

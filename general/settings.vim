@@ -19,5 +19,6 @@ set lcs+=space:.            " set the blank character to '.'
 set formatoptions-=cro      " Stop newline continution of comments
 set t_Co=256                " Support 256 colors
 set termguicolors           " sets term gui colors
+set spelllang=en_us         " sets the spell checker language to en_us
 
 

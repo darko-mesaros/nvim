@@ -15,3 +15,5 @@ inoremap <F5> <C-o>:set list!<CR>
 cnoremap <F5> <C-c>:set list!<CR>
 " toggle no-paste
 nnoremap <F6> :set invpaste paste?<CR>
+" enable the spell checker
+nnoremap <C-E><C-S> :setlocal spell!<CR>
