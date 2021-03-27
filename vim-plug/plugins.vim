@@ -40,9 +40,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " terraform
     Plug 'hashivim/vim-terraform'
 
-    " vimwiki
-    Plug 'vimwiki/vimwiki'
-
     " Markdown
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
