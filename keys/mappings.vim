@@ -17,3 +17,6 @@ cnoremap <F5> <C-c>:set list!<CR>
 nnoremap <F6> :set invpaste paste?<CR>
 " enable the spell checker
 nnoremap <C-E><C-S> :setlocal spell!<CR>
+" show next matched string at the center of the screen
+nnoremap n nzz
+nnoremap N Nzz
