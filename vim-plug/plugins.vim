@@ -43,6 +43,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Markdown
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
+    " Quickscope
+    Plug 'unblevable/quick-scope'       
+
 
 
 call plug#end()
