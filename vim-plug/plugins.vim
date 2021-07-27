@@ -46,7 +46,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Quickscope
     Plug 'unblevable/quick-scope'       
 
-
+    " Typescript
+    Plug 'Quramy/tsuquyomi'
+    
 
 call plug#end()
 

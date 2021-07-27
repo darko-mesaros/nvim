@@ -9,7 +9,7 @@ let g:startify_lists = [
 
 let g:startify_bookmarks = [
           \ { 'i': '~/.config/nvim/init.vim' },
-          \ { 'o': '~/.config/openbox/rc.xml' },
+          \ { 's': '~/.config/spectrwm/spectrwm.conf' },
           \ { 'z': '~/.zshrc' },
           \ { 'r': '~/.Xresources' },
           \ { 'c': '~/.config/conky/conky.conf' },
