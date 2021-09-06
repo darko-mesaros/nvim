@@ -20,3 +20,7 @@ nnoremap <C-E><C-S> :setlocal spell!<CR>
 " show next matched string at the center of the screen
 nnoremap n nzz
 nnoremap N Nzz
+" reselect pasted text
+nnoremap gp `[v`]
+" netrw toggle
+nnoremap <C-\><C-\> :Vexplore<CR>
