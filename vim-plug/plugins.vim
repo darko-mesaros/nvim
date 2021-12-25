@@ -18,9 +18,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Add some color
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'junegunn/rainbow_parentheses.vim'
+    " colorschemes
     Plug 'ParamagicDev/vim-medic_chalk'
     Plug 'humanoid-colors/vim-humanoid-colorscheme'
-    Plug 'atahabaki/archman-vim'
+    Plug 'nanotech/jellybeans.vim'
+    Plug 'NLKNguyen/papercolor-theme'
+    Plug 'ayu-theme/ayu-vim'
 
     " lightline - statusbar
     Plug 'itchyny/lightline.vim'

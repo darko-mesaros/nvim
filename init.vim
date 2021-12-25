@@ -18,7 +18,11 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/vimwiki.vim
 " colorizer
 lua require'plug-colorizer'
-colorscheme archman
+
+" colorscheme
+let ayucolor="dark"
+colorscheme ayu
+
 highlight Comment cterm=italic gui=italic
 
 " Some color settings
