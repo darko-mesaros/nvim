@@ -1,0 +1,7 @@
+require "darko.options"
+require "darko.keymaps"
+require "darko.plugins"
+require "darko.colorscheme"
+require "darko.cmp"
+require "darko.lsp"
+require "darko.telescope"
