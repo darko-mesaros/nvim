@@ -1,4 +1,4 @@
-local colorscheme = "tokyonight"
+local colorscheme = "medic_chalk"
 
 -- tokyonight config options
 if colorscheme == "tokyonight" then

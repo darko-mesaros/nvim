@@ -47,9 +47,11 @@ return packer.startup(function(use)
   -- colors and schemes
   use "ayu-theme/ayu-vim"               -- supports 3 modes
   use 'folke/tokyonight.nvim'           -- has night and day
+  use 'ParamagicDev/vim-medic_chalk'    -- vivid dark
 
   -- better writing
   use "rstacruz/vim-closer"             -- closes brackers for you
+  use "unblevable/quick-scope"          -- better horizontal mvmt
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp"                -- the completion plugin
