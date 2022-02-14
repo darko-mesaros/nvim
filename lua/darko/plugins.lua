@@ -79,6 +79,7 @@ return packer.startup(function(use)
   -- useful utilities, sometimes needed by other plugins
   use "nvim-lua/popup.nvim"             -- implementation of the vim popip api in nvim
   use "nvim-lua/plenary.nvim"           -- useful lua functions used by lots of plugins
+  use "mhinz/vim-startify"              -- start page for vim
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"   -- telescope
