@@ -29,7 +29,6 @@ g.startify_lists = {
 }
 
 g.startify_bookmarks = {
-  { i = '~/repos/nvim/init.lua'},
+  { i = '~/workspace/repos/nvim/init.lua'},
   { z = '~/.zshrc'},
-  { w = '~/.config/qtile/config.py' },
 }
