@@ -1,5 +1,5 @@
 # nvim
-My neovim dotfiles
+Darko's neovim dot files. *Currently tested to work on Neovim Version 0.8.1*
 
 ## Future considerations 
 - Toggle Term: https://github.com/akinsho/toggleterm.nvim
@@ -49,4 +49,3 @@ In the tree view
 `r` - rename file
 `y` - copy file name
 `Y` - copy file path
-
