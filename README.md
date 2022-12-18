@@ -15,6 +15,10 @@ Darko's neovim dot files. *Currently tested to work on Neovim Version 0.8.1*
 
 `f` - Highlight characters we can move to in a line
 
+`<leader>gl` - Switch to a light theme
+
+`<leader>gd` - Switch to a dark theme
+
 ### Telescope
 `<leader>ff` - find files
 
