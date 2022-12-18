@@ -42,6 +42,12 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
+-- Change dark and light theme
+-- TODO: Figure out a single key combo for toggles
+keymap("n", "<leader>gd", "<Esc>:colorscheme moonfly<CR>", opts)
+keymap("n", "<leader>gl", "<Esc>:colorscheme morning<CR>", opts)
+
+
 -- Insert --
 -- Press jk fast to exit insert mode 
 keymap("i", "jj", "<ESC>", opts)
