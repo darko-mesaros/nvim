@@ -11,6 +11,7 @@ local servers = {
   "bashls",
 	"jsonls",
 	"yamlls",
+  "marksman",
   "clangd",
   "terraformls",
   "rust_analyzer",
