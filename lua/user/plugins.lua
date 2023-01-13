@@ -57,6 +57,7 @@ return packer.startup(function(use)
   use { "goolord/alpha-nvim" }
 	use {"folke/which-key.nvim"}
   use {"jinh0/eyeliner.nvim"}
+  use {"eandrju/cellular-automaton.nvim"} -- make it rain
 
 	-- Colorschemes
   use { "folke/tokyonight.nvim" }
