@@ -2,7 +2,7 @@ local servers = {
   -- they are nvim lsp servers: 
   -- more info here: 
   -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
-	"sumneko_lua",
+	"lua_ls",
 	"cssls",
 	"html",
   "tsserver",
@@ -15,6 +15,7 @@ local servers = {
   "clangd",
   "terraformls",
   "rust_analyzer",
+  "asm_lsp",
 }
 
 local settings = {
