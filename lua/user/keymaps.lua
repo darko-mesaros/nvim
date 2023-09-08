@@ -83,9 +83,13 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
 -- THIS BREAKS CLEAN INSTALLS - TODO: make sure it can error out and continue installing
-local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
-vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
-vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
-vim.keymap.set('n', '<leader>fh', builtin.help_tags, {}) -- vim help
-vim.keymap.set('n', '<leader>fc', builtin.treesitter, {}) -- tree sitter func names, variables
+--local status_ok, telescope = pcall(require, "telescope.builtin")
+--if not status_ok then
+--  return
+--end
+--builtin = require('telescope.builtin')
+--vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+--vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+--vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+--vim.keymap.set('n', '<leader>fh', builtin.help_tags, {}) -- vim help
+--vim.keymap.set('n', '<leader>fc', builtin.treesitter, {}) -- tree sitter func names, variables
