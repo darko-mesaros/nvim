@@ -46,6 +46,7 @@ return packer.startup(function(use)
   use { "numToStr/Comment.nvim" } -- comment toggling with gcc and gbc
   use { "JoosepAlviste/nvim-ts-context-commentstring" }
   use { "kyazdani42/nvim-web-devicons" }
+  use { "ryanoasis/vim-devicons" }
   use { "kyazdani42/nvim-tree.lua" } -- replacement for netrw
   use { "akinsho/bufferline.nvim" } -- adds buffers as tabs
 	use { "moll/vim-bbye" }
