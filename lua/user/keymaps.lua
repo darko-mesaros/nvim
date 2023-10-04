@@ -47,6 +47,13 @@ keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 keymap("n", "<leader>gd", "<Esc>:colorscheme moonfly<CR>", opts)
 keymap("n", "<leader>gl", "<Esc>:colorscheme morning<CR>", opts)
 
+-- Toggleterm
+keymap("n", "<leader>tf", "<Esc>:ToggleTerm direction=float<CR>", opts)
+keymap("n", "<leader>tv", "<Esc>:ToggleTerm size=40 direction=vertical<CR>", opts)
+keymap("n", "<leader>th", "<Esc>:ToggleTerm size=10 direction=horizontal<CR>", opts)
+keymap("n", "<leader>tp", "<Esc>:lua _PYTHON_TOGGLE()<CR>", opts)
+keymap("n", "<leader>tn", "<Esc>:lua _NODE_TOGGLE()<CR>", opts)
+keymap("n", "<leader>tg", "<Esc>:lua _LAZYGIT_TOGGLE()<CR>", opts)
 
 -- Insert --
 -- Press jk fast to exit insert mode 
