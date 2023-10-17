@@ -39,6 +39,7 @@ require("lazy").setup({
 	 "folke/which-key.nvim",
    "jinh0/eyeliner.nvim",
    "eandrju/cellular-automaton.nvim", -- make it rain
+   "norcalli/nvim-colorizer.lua",     -- convert hex values to colors
 
 	-- Colorschemes
    "folke/tokyonight.nvim",
