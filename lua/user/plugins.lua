@@ -46,6 +46,7 @@ require("lazy").setup({
    "lunarvim/darkplus.nvim",
    "bluz71/vim-moonfly-colors",
    "nyoom-engineering/oxocarbon.nvim",
+   "ellisonleao/gruvbox.nvim",
 
 	-- Cmp
    "hrsh7th/nvim-cmp", -- The completion plugin
