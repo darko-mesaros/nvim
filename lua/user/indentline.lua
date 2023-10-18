@@ -24,28 +24,22 @@ hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
     vim.api.nvim_set_hl(0, "RainbowGreen", { fg = "#98C379" })
     vim.api.nvim_set_hl(0, "RainbowViolet", { fg = "#C678DD" })
     vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#56B6C2" })
+    vim.api.nvim_set_hl(0, "MyScopeHighlight", { fg = "#FC5CB9" })
 end)
 
-require("ibl").setup {
-  enabled = true,
-  exclude = {
-    buftypes = { "terminal", "nofile" },
-    filetypes = {
-      "help",
-      "startify",
-      "dashboard",
-      "lazy",
-      "neogitstatus",
-      "NvimTree",
-      "Trouble",
-      "text",
+
+indent_blankline.setup {
+    indent = {
+        highlight = highlight,
+        char = { "⎜" },
     },
-  },
-  indent = {
-    char = "▎",
-    highlight = highlight,
-  },
-  scope = {
-      enabled = true,
-  }
+    scope = {
+        highlight = highlight,
+        enabled = true,
+        priority = 2000,
+        char = { "▎" },
+
+        -- FIX: the show_start line is not 1 color
+        -- show_start = false
+    }
 }
