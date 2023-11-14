@@ -77,6 +77,9 @@ require("lazy").setup({
 	-- Git
 	 "lewis6991/gitsigns.nvim",
 
+  -- tmux
+   "alexghergh/nvim-tmux-navigation",
+
   -- commandline and more
   {
     "folke/noice.nvim",
