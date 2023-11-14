@@ -2,7 +2,6 @@
 Darko's neovim dot files. *Currently tested to work on Neovim Version 0.8.1*
 
 ## Future considerations 
-- Toggle Term: https://github.com/akinsho/toggleterm.nvim
 - Project: https://github.com/ahmedkhalf/project.nvim
 - Which key: https://github.com/folke/which-key.nvim
 
@@ -78,4 +77,18 @@ In the tree view
 `y` - copy file name
 
 `Y` - copy file path
+
+### Toggle Term
+
+`<leader>tt` - Toggle the bottom terminal
+
+`<leader>tf` - Toggle floating terminal
+
+`<leader>tv` - Toggle vertical terminal
+
+`<leader>tp` - Toggle the Python console
+
+`<leader>tn` - Toggle the Node console
+
+`<leader>tg` - Toggle LazyGit
 
