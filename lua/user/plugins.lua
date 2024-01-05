@@ -41,6 +41,9 @@ require("lazy").setup({
    "eandrju/cellular-automaton.nvim", -- make it rain
    "norcalli/nvim-colorizer.lua",     -- convert hex values to colors
 
+  -- generative ai
+   "David-Kunz/gen.nvim",
+
 	-- Colorschemes
    "folke/tokyonight.nvim",
    "lunarvim/darkplus.nvim",
