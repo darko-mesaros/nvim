@@ -47,3 +47,10 @@ vim.opt.shortmess:append "c"                           -- don't give |ins-comple
 vim.opt.iskeyword:append "-"                           -- hyphenated words recognized by searches
 vim.opt.formatoptions:remove({ "c", "r", "o" })        -- don't insert the current comment leader automatically for auto-wrapping comments using 'textwidth', hitting <Enter> in insert mode, or hitting 'o' or 'O' in normal mode.
 vim.opt.runtimepath:remove("/usr/share/vim/vimfiles")  -- separate vim plugins from neovim in case vim still in use
+
+-- hack to deal with bug in telescope-cheat.nvim
+-- https://github.com/nvim-telescope/telescope-cheat.nvim/issues/7
+local cheat_dbdir = vim.fn.stdpath "data" .. "/databases"
+if not vim.loop.fs_stat(cheat_dbdir) then
+  vim.loop.fs_mkdir(cheat_dbdir, 493)
+end

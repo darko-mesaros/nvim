@@ -41,6 +41,13 @@ require("lazy").setup({
    "eandrju/cellular-automaton.nvim", -- make it rain
    "norcalli/nvim-colorizer.lua",     -- convert hex values to colors
    "ojroques/nvim-osc52",             -- support for osc52 clipboard. REMOVE IN VERSION 0.10 when released
+   {
+    "nvim-telescope/telescope-cheat.nvim",
+      dependencies = {
+        "kkharji/sqlite.lua",
+        "nvim-telescope/telescope.nvim"
+    }
+   },
 
   -- generative ai
    "David-Kunz/gen.nvim",
